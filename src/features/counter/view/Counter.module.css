@@ -1,0 +1,30 @@
+.counter {
+  display: flex;
+  align-items: center;
+  color: var(--color-scale-orange);
+}
+
+.label {
+  width: 70px;
+  font-size: 48px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 32px;
+  color: var(--color-scale-orange);
+  background: none;
+  border: 2px solid transparent;
+}
+
+.button:focus {
+  border: 2px solid var(--color-btn-focus-border);
+}
+
+.button:active {
+  background-color: var(--color-btn-active-bg);
+}
